@@ -1,5 +1,5 @@
 # Open AI Chat Bot
-Are you sick of being bombarded with ads while browsing on Amazon? Me too. That's why I wrote this Chrome Extension! This Extension will hide a lot of the advertisements and invasive elements on Amazon listings to allow you to create a focused shopping experience showing you only the most pertinent information; product information and product reviews. I hope you find this Extension useful!
+Do you need a frontend to chat with the latest and greatest AI on the net? Well, look no further! Here is a PHP frontend for you to do exactly that!
 
 # Mobile Version
 ![alt text](https://i.imgur.com/AC0KxRJ.jpg)
