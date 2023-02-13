@@ -1,7 +1,11 @@
 # Open AI Chat Bot
 Are you sick of being bombarded with ads while browsing on Amazon? Me too. That's why I wrote this Chrome Extension! This Extension will hide a lot of the advertisements and invasive elements on Amazon listings to allow you to create a focused shopping experience showing you only the most pertinent information; product information and product reviews. I hope you find this Extension useful!
 
-![alt text](https://i.imgur.com/RRHUb2O.png)
+# Mobile Version
+![alt text](https://i.imgur.com/AC0KxRJ.jpg)
+
+# Desktop Version
+![alt text](https://i.imgur.com/vLILA4D.png)
 
 # Pre-requisites
 - You'll need to running PHP 7+. You may run tweak the code to work with earlier versions if you wish.
@@ -11,6 +15,7 @@ Are you sick of being bombarded with ads while browsing on Amazon? Me too. That'
 # Installation
 - Clone the repository using `git`, Github Desktop or download the repository as a zip file.
 - Extract the archive contents to your PHP folder (on Linux it is usually /var/www/html/ and on XAMPP for Windows it's usually C:\xampp\htdocs\ )
+- Grab your OpenAI API key and add it to "api_key.txt". I don't provide an api key as it's not free.
 - Open up your browser, navigate to your site...and enjoy chatting!
 
 # Known bugs
@@ -22,4 +27,4 @@ Are you sick of being bombarded with ads while browsing on Amazon? Me too. That'
 - More UI improvements.
 
 # Links
-- Github https://github.com/TheBlode/AmaZen
+- Github https://github.com/TheBlode/Open-AI-Chat-Bot
