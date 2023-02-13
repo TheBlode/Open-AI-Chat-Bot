@@ -1,0 +1,104 @@
+body {
+    background: linear-gradient(90deg, #D3D3D3, transparent);
+    font-family: "system-ui";
+}
+
+#main {
+    max-height: 80vh;
+    overflow-y: scroll;
+    height: 80vh;
+    background: linear-gradient(90deg, #D3D3D3, transparent);
+}
+
+#chat_input {
+    height: 7vh;
+    width: 85vw;
+}
+
+#submit {
+    height: 7vh;
+    position: fixed;
+    width: 10vw;
+    border: 1px black solid;
+    border-radius: 10px;
+    background: palegreen;
+}
+
+#title_image {
+    height:9vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+
+.right {
+    text-align: right !important;
+    padding: 10px;
+    background-color: lightblue;
+    box-sizing: inherit;
+    border: 2px solid #dedede;
+    border-radius: 5px;
+    margin: 10px 0;
+    display: block;
+}
+
+.left {
+    text-align: left;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border: 2px solid #dedede;
+    border-radius: 5px;
+    margin: 10px 0;
+    display: block;
+    box-sizing: inherit;
+}
+
+.dot-flashing {
+    position: relative;
+    margin-left: 20px;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: #9880ff;
+    color: #9880ff;
+    animation: dot-flashing 1s infinite linear alternate;
+    animation-delay: 0.5s;
+}
+
+.dot-flashing::before, .dot-flashing::after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 0;
+}
+
+.dot-flashing::before {
+    left: -15px;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: #9880ff;
+    color: #9880ff;
+    animation: dot-flashing 1s infinite alternate;
+    animation-delay: 0s;
+}
+
+.dot-flashing::after {
+    left: 15px;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: #9880ff;
+    color: #9880ff;
+    animation: dot-flashing 1s infinite alternate;
+    animation-delay: 1s;
+}
+
+@keyframes dot-flashing {
+    0% {
+        background-color: #9880ff;
+    }
+    50%, 100% {
+        background-color: rgba(152, 128, 255, 0.2);
+    }
+}
