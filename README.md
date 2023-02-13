@@ -2,7 +2,7 @@
 Are you sick of being bombarded with ads while browsing on Amazon? Me too. That's why I wrote this Chrome Extension! This Extension will hide a lot of the advertisements and invasive elements on Amazon listings to allow you to create a focused shopping experience showing you only the most pertinent information; product information and product reviews. I hope you find this Extension useful!
 
 # Mobile Version
-![alt text](https://i.imgur.com/AC0KxRJ.jpg | width=100)
+![alt text](https://i.imgur.com/AC0KxRJ.jpg)
 
 # Desktop Version
 ![alt text](https://i.imgur.com/vLILA4D.png)
